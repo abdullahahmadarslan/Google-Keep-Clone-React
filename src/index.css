@@ -1,0 +1,165 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* global variables */
+:root {
+  --bodyColor: white;
+  --mainColor: rgb(255, 166, 0);
+  --success: rgb(150, 226, 10);
+  --danger: red;
+}
+
+/* header */
+.header {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  background-color: var(--mainColor);
+  box-shadow: 0px 0px 13px grey;
+}
+
+.cmn1 {
+  margin: 8px 8px;
+}
+
+
+.title {
+  font-size: 42px;
+
+
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+
+/* note adder  */
+
+.form {
+  border: 2px solid white;
+  width: 442px;
+  margin: auto;
+  height: 196px;
+  margin-top: 24px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px grey;
+
+}
+
+.text-field {
+  display: block;
+  margin: auto;
+  border: none;
+}
+
+.text-field:focus {
+  outline: none;
+}
+
+.text-adder {
+  height: 55px;
+  width: 438px;
+  border-top-right-radius: 17px;
+  border-top-left-radius: 17px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.text-area {
+  height: 137px;
+  width: 438px;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -21px;
+  left: 198px;
+  z-index: 1;
+  border: none;
+  border-radius: 30px;
+  width: 44px;
+  height: 43px;
+  background-color: white;
+  box-shadow: 0px 0px 7px grey;
+  cursor: pointer;
+}
+
+/* AddIcon styling */
+.add-icon {
+
+  color: rgb(255, 166, 0);
+
+}
+
+.btn:hover .add-icon {
+  color: green;
+}
+
+/* note displayer */
+.note-displayer-main {
+
+  height: 573px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.note-displayer {
+  border: 2px solid white;
+  height: 220px;
+  width: 342px;
+  margin: 31px 13px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px grey;
+}
+
+.del-btn {
+  display: block;
+  margin-top: 88px;
+  margin-left: 287px;
+  width: 44px;
+  height: 43px;
+  background-color: white;
+  box-shadow: 0px 0px 7px grey;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+}
+
+.del-btn:hover {
+  background-color: rgb(255, 94, 0);
+}
+
+.cmn2 {
+  margin: 8px 10px;
+}
+
+/* footer */
+footer {
+  background-color: var(--mainColor);
+  text-align: center;
+  height: 32px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0px 0px 4px grey;
+  margin-top: 45px;
+  width: 100vw;
+
+
+
+}
