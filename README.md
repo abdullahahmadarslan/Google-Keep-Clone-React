@@ -18,7 +18,13 @@ This project is a **React-based Google Keep Clone** that allows users to easily 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/google-keep-clone.git
-2.Navigate to the project directory:
-  ```bash
-  cd google-keep-clone
+2. Navigate to the project directory:
+   ```bash
+   cd google-keep-clone
+3. Install the dependencies:
+   ```bash
+   npm install
+4.Start the development server:
+   ```bash
+   npm start
 
